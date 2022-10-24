@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../assests/styles/nctss_3.css">
+  <title>NorCal Time Trial Series</title>
+  
+</head>
+<body>
+
+  <div class="page">
+    <section class="header">
+      <h1>NorCal Time Trial Series</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="about.html">About</a>
+          </li>
+          <li>
+            <a href="general-information.html">General Information</a>
+          </li>
+          <li>
+            <a href="safety-rules.html">Safety Rules</a>
+          </li>
+          <li class="current">Sign Up!</li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+      
+    <section class="content">
+      <img class="logo" src="../assests/media/LOGO.png" alt="NCTTS Logo">
+      <img class="picture" src="../assests/media/alternative_image.jpg" alt="Blue BMW racing car">
+      <h2>Registration Form:</h2> 
+      <div class="subcontent">
+        <form action="show_data.html" method="get">
+          <fieldset>
+            <label for="name">First Name:</label><input type="text" name="name" id="name"><br>
+            <label for="surname">Last Name:</label><input type="text" name="surname" id="surname"><br>
+            <label for="street">Street Address:</label><input type="text" name="street" id="street"><br>
+            <label for="city">City:</label><input type="text" name="city" id="city"><br>
+            <label for="zip">Zip Code:</label><input type="text" name="zip" id="zip"><br>
+            <label for="age">Age:</label><input type="number" name="age" id="age"><br>
+            Gender:
+            <label for="female">Female</label><input type="radio" name="female" id="female" value="female"> 
+            <label for="male">Male</label><input type="radio" name="male" id="male" value="male"><br>
+            <label for="phone">Contact Phone:</label><input type="tel" name="phone" id="phone"><br>
+            <label for="email">Email:</label><input type="email" name="email" id="email"><br>
+            <h3>Motorsports Organization Membership?</h3>
+            <input type="checkbox" name="sccsa" id="scca"><label for="scca">Sports Car Club of America (SCCA)</label><br>
+            <input type="checkbox" name="nasa" id="nasa"><label for="nasa">National Autosport Association (NASA)</label><br>
+            <input type="checkbox" name="none" id="none"><label for="none">None</label><br>
+            <h3>Previous Competitive Experience</h3>
+            <input type="checkbox" name="exp1" id="exp1" value="none"><label for="exp1">None</label><br>
+            <input type="checkbox" name="exp2" id="exp2" value="HPDE"><label for="exp2">HPDE/Track Days</label><br>
+            <input type="checkbox" name="exp3" id="exp3" value="autocross"><label for="exp3">Autocross</label><br>
+            <input type="checkbox" name="exp4" id="exp4" value="1year"><label for="exp4">One Year</label><br>
+            <input type="checkbox" name="exp5" id="exp5" value="2years"><label for="exp5">Two Years</label><br>
+            <input type="checkbox" name="exp6" id="exp6" value="2years+"><label for="exp6">Over Two Years</label><br>
+            <h3>Racing License</h3>
+            <input type="checkbox" name="lic1" id="lic1" value="none"><label for="lic1">None</label><br>
+            <input type="checkbox" name="lic2" id="lic2" value="scca"><label for="lic2">SCCA</label><br>
+            <input type="checkbox" name="lic3" id="lic3" value="nasa"><label for="lic3">NASA</label><br>
+            <input type="checkbox" name="lic4" id="lic4" value="fia"><label for="lic4">FIA</label><br>
+            <p>I agree that I will abide by all the rules of the NorCal Time Trial Series (NCTTS). I recognize that Motorsports are inherently dangerous. I hereby release, discharge, and/or otherwise indemnify NCTTS, their employees and associated personnel and volunteers, including the facilities used for events, against any claim by or on behalf of the registrant as a result of my participation in the series.</p>
+            <p>By signing below, I hereby agree and authorize the above. </p>
+            <label for="sign">Registrant's Signature:</label><input type="text" name="sign" id="sign"><label for="date">Date:</label><input type="date" name="date" id="date"><br>
+            <input type="submit" value="Submit"> <input type="reset" value="Reset">
+           </fieldset> 
+        </form>
+      </div>
+    </section>  
+  </div>
+</body>
+</html>

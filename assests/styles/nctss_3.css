@@ -1,0 +1,130 @@
+
+.logo{
+  position: relative;
+  float: right;
+  width: 150px;
+  padding: 0;
+  border: solid 1px black;
+  margin-right: 150px;
+}
+
+.subcontent{
+  margin-left: 200px;
+  margin-top: 30px;
+  margin-right: 0;
+  width: 600px;
+  text-align: justify;
+  min-height: 800px;
+}
+
+nav{
+  margin: 60px, 25px, 40px, 0px;
+  font-weight: bolder;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  list-style-type: none;
+  float: left;
+}
+
+nav li{
+  padding: 10px;
+  margin: 2px;
+  background-color: #061b59;
+  color: white;
+
+  width: 80px;
+  text-align: center;
+  
+}
+
+nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+nav li:hover{
+  background-color: #076199;
+}
+
+.current {
+  background-color: #03B4CB;
+}
+
+h2{
+  margin-left:150px ;
+  margin-top: 25px;
+  font-size: 2EM;
+  color: #061b59;
+  text-decoration: underline;
+  }
+
+h1{
+  font-size: 4EM;
+  margin: 0 auto;
+  text-align: center;
+  padding: 25px;
+  color: white;
+  background: rgb(2,0,36);
+  background: linear-gradient(344deg, rgba(2,0,36,1) 0%, rgba(9,43,121,1) 34%, rgba(0,255,248,1) 100%);
+}
+
+.picture {
+  position: relative;
+  float: right;
+  width: 250px;
+  padding: 0;
+  margin-right: -200px;
+  margin-top: 200px;
+  border: solid 1px black;
+}
+
+td{
+  text-align: justify;
+}
+
+th{
+  text-align: left;
+}
+
+.bottomLine{
+  border-bottom:ridge 1px lightgrey ;
+}
+.li1{
+  color: #061b59;
+  font-weight: bold;
+}
+.liA{
+  color: #076199;
+  font-weight: bold;
+}
+.liI{
+  color: #03B4CB;
+  font-weight: bold;
+}
+.lia{
+  color: black;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+.safetyTable{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+body{
+  background-color: #f2fdff;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+.subcontent input{
+  margin: 5px;
+}
+
+fieldset {
+  background-color: #EDEDED;
+}
